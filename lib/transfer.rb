@@ -9,7 +9,7 @@ class Transfer
   end
   
   def valid?
-    if self.sender == "open" && self.receiver == "open"
+    if @sender == "open" && @receiver == "open"
       true
     else
       false
